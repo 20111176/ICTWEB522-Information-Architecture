@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TAFE Alumni</title>
+  <link rel="stylesheet" href="./src/output.css">
+  <script src="./js/script.js" defer></script>
+</head>
+
+<body id="scroll-container" class="mx-auto w-5/6 h-screen shadow-2xl">
+  <!-- Header -->
+  <header class="bg-zinc-200 border-2 rounded-t-3xl">
+    <div class="">
+      <div class="flex justify-between">
+        <h1 class="ml-4 p-4 text-4xl">
+          TAFE Alumni
+          <p class="text-sm">North Metropolitan</p>
+        </h1>
+        <div class="flex justify-end mt-4 mx-4">
+          <p class="mr-4">
+            <a href="#">login</a>
+          </p>
+          <div class="border-2">
+            <button id="hamburger-button" class="cursor-pointer">
+              <img class="w-12 h-12 border-2 rounded-lg px-2 py-1 bg-zinc-500" src="./img/logo/hambuger-menu.png"
+                alt="menu icon">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navigation -->
+    <section id="mobile-menu"
+      class="absolute top-0 left-0 w-full bg-zinc-400 text-5xl flex-col justify-center origin-left animate-open-menu hidden">
+      <button class="text-8xl self-end px-6 text-black">&times;
+      </button>
+      <h2 class="pl-10">Navigation
+      </h2>
+      <nav class="flex flex-col min-h-screen items-center py-8 aria-label='mobile">
+        <a href="./index.html" class="text-black w-full text-left ml-20 text-3xl py-6 hover:opacity-90">HOME</a>
+        <a href="./profile.html" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Profile</a>
+        <a href="#" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Connect</a>
+        <a href="#" class="text-black w-full  ml-40 text-3xl py-6 hover:opacity-90">Sub 1</a>
+        <a href="#" class="text-black w-full  ml-40 text-3xl py-6 hover:opacity-90">Sub 2</a>
+        <a href="#" class="text-black w-full  ml-40 text-3xl py-6 hover:opacity-90">Sub 3</a>
+        <a href="#" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Resource</a>
+        <a href="#" class="text-black w-full  ml-20 text-3xl py-6 hover:opacity-90">Contact</a>
+      </nav>
+    </section>
+  </header>
+  <main class="mx-auto">
+    <!-- Hero Section -->
+    <section class="mt-1 h-80 bg-zinc-200">
+      <h2 class="text-6xl p-8">Hero Section</h2>
+      <div class="flex justify-evenly">
+        <p class="flex justify-center flex-col center">TAFE Alumni<br>North Metropolitan</p>
+        <div
+          class="border-2 border-zinc-600 rounded-full w-32 h-32 flex justify-center flex-col text-center shadow-2xl text-2xl">
+          Event
+          1</div>
+      </div>
+    </section>
+    <!-- Content Section -->
+    <section class="h-96">
+
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="bg-zinc-200 bg-spinodal pb-2 w-full">
+    <section class="flex flex-row justify-around items-start">
+      <ul class="text-s mt-2 flex">
+        <li class="text-xs border-4 border-zinc-400 mr-4 w-32 rounded-lg py-2 px-2 text-center"><a
+            href="https://www.northmetrotafe.wa.edu.au" target="_blank">North
+            Metro TAFE</a></li>
+        <li class="text-xs border-4 w-32 border-zinc-400 rounded-lg py-2 px-2 text-center"><a
+            href="./profile.html">Profile</a></li>
+      </ul>
+    </section>
+    <section class="text-center">
+      <h3 class="inline text-xs">© Copyright 2024</h3>
+      <p class="inline mt-1 text-center text-xs mb-5">
+        Sukhwan Ko. All rights reserved.</p>
+    </section>
+  </footer>
+</body>
+
+</html>
